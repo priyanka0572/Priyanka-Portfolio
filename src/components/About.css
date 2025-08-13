@@ -1,0 +1,70 @@
+.about {
+  background-color: var(--background-dark);
+  padding: 100px 0;
+}
+
+.about .container {
+  max-width: 900px;
+}
+
+.about h2 {
+  color: var(--text-white);
+  margin-bottom: 4rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.8;
+  color: var(--text-light);
+  margin-bottom: 3rem;
+}
+
+.achievements-subtle {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--surface-color);
+  border-radius: 12px;
+  border-left: 4px solid var(--primary-color);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  box-shadow: var(--shadow);
+}
+
+.achievements-subtle::before {
+  content: '🏆';
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 2rem;
+  opacity: 0.3;
+}
+
+.achievements-subtle p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--text-white);
+  font-weight: 600;
+}
+
+.achievements-subtle strong {
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 0;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+  }
+  
+  .achievements-subtle {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+}

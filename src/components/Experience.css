@@ -1,0 +1,45 @@
+.experience {
+  background-color: var(--background-dark);
+}
+
+.experience-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.experience-item {
+  background: var(--surface-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--primary-color);
+  border: 1px solid var(--border-color);
+}
+
+.experience-item h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.company {
+  font-weight: 600;
+  color: var(--text-white);
+  margin-bottom: 0.5rem;
+}
+
+.duration {
+  color: var(--text-light);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.experience-item ul {
+  padding-left: 1.5rem;
+}
+
+.experience-item li {
+  margin-bottom: 0.5rem;
+  color: var(--text-light);
+}
