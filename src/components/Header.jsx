@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import profilePic from '../assets/priyanka-pic.jpg';
 
 const Header = () => {
   return (
@@ -49,7 +50,7 @@ const Header = () => {
           </div>
           <div className="hero-image">
             <div className="hero-circle">
-              <img src="/Priyanka-Portfolio/priyanka-pic.jpg" alt="Priyanka V" className="profile-pic" />
+              <img src={profilePic} alt="Priyanka V" className="profile-pic" />
             </div>
           </div>
         </div>
