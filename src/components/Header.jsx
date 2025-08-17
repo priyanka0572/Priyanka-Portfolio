@@ -49,7 +49,7 @@ const Header = () => {
           </div>
           <div className="hero-image">
             <div className="hero-circle">
-              <img src="./priyanka-pic.jpg" alt="Priyanka V" className="profile-pic" />
+              <img src="/Priyanka-Portfolio/priyanka-pic.jpg" alt="Priyanka V" className="profile-pic" />
             </div>
           </div>
         </div>
