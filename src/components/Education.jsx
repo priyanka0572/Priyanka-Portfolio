@@ -11,7 +11,7 @@ const Education = () => {
             <h3>Sri Sairam Engineering College</h3>
             <p className="degree">Bachelor of Engineering (B.E.) in Computer Science and Engineering (CSE)</p>
             <p className="duration">Sep 2023 – June 2027</p>
-            <p className="gpa">GPA: 8.86/10.0</p>
+            <p className="gpa">GPA: 8.71/10.0</p>
           </div>
           <div className="education-item">
             <h3>Chinmaya Vidyalaya Senior Secondary School</h3>

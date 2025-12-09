@@ -18,7 +18,8 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  border: 1px solid var(--border-color);
+  border: 2px solid var(--primary-color);
+  background: linear-gradient(135deg, var(--surface-color) 0%, rgba(255, 215, 0, 0.02) 100%);
 }
 
 .project-item::before {
@@ -41,19 +42,10 @@
   box-shadow: var(--shadow-hover);
 }
 
-.project-item.featured {
-  border: 2px solid var(--primary-color);
-  background: linear-gradient(135deg, var(--surface-color) 0%, rgba(255, 215, 0, 0.02) 100%);
-}
-
 .project-item h3 {
-  color: var(--text-white);
+  color: var(--primary-color);
   margin-bottom: 1rem;
   font-size: 1.4rem;
-}
-
-.project-item.featured h3 {
-  color: var(--primary-color);
 }
 
 .status {

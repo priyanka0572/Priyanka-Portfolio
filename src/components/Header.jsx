@@ -15,6 +15,7 @@ const Header = () => {
             <li><a href="#skills" className="nav-link">Skills</a></li>
             <li><a href="#projects" className="nav-link">Projects</a></li>
             <li><a href="#experience" className="nav-link">Experience</a></li>
+            <li><a href="#education" className="nav-link">Education</a></li>
             <li><a href="#contact" className="nav-link">Contact</a></li>
           </ul>
         </div>
@@ -34,7 +35,6 @@ const Header = () => {
             </p>
             <div className="hero-buttons">
               <a href="#projects" className="btn-primary">View My Work</a>
-              <a href="/Priyanka-Resume.pdf" download="Priyanka-Resume.pdf" className="btn-secondary">Download Resume</a>
             </div>
             <div className="hero-social">
               <a href="https://github.com/priyanka0572" target="_blank" rel="noopener noreferrer" className="social-link">

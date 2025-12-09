@@ -5,23 +5,27 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Python", "C", "Java"]
+      skills: ["Python", "C", "Java", "JavaScript"]
     },
     {
       title: "Web Development",
-      skills: ["HTML", "CSS", "JavaScript", "React"]
+      skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Node.js", "FastAPI"]
+    },
+    {
+      title: "DevOps & Cloud Tools",
+      skills: ["Docker", "Kubernetes", "GitHub Actions", "Render", "Netlify"]
+    },
+    {
+      title: "Developer Tools & Databases",
+      skills: ["Git", "Postman API", "VS Code", "Google Colab", "MongoDB", "MySQL", "PostgreSQL", "Firebase"]
     },
     {
       title: "UI/UX Design",
-      skills: ["Prototyping", "Wireframing", "User-centered design principles"]
-    },
-    {
-      title: "Project Management",
-      skills: ["Agile methodologies", "Task tracking", "Time management"]
+      skills: ["Prototyping", "Wireframing", "User-Centered Design Principles"]
     },
     {
       title: "Soft Skills",
-      skills: ["Effective communication", "Teamwork", "Critical thinking", "Problem-solving"]
+      skills: ["Leadership", "Communication", "Teamwork", "Problem Solving"]
     }
   ];
 
